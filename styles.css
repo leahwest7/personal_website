@@ -34,6 +34,10 @@ li a {color: #800040; text-decoration: none; text-align: center; font-size: 1.3e
   margin-left: auto;
   margin-right: auto;
    width: 25%;border-radius: 50%;max-width: 100%; height:auto}
+#a-img {display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 25%;border-radius: 50%;max-width: 100%; height:auto}
 #l-beach { order: -1;}
 #l-euro { order: 1; align-self: flex-end}
 #l-backyard {order 3;}
