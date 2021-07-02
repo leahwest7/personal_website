@@ -39,11 +39,11 @@ li a {color: #800040; text-decoration: none; text-align: center; font-size: 1.3e
   margin-left: auto;
   margin-right: auto;
    width: 25%;border-radius: 50%;max-width: 100%; height:auto}
-#l-beach {align-self: flex-start; max-width: 35%; 
+#l-beach {align-self: flex-start; max-width: 25%; 
   height: auto;}
-#l-backyard {align-self: center; max-width: 30%;
+#l-backyard {align-self: center; max-width: 23%;
   height: auto;}
-#l-euro { align-self: flex-end; max-width: 30%;
+#l-euro { align-self: flex-end; max-width: 31%;
   height: auto;}
 
 #gif {display: block; margin-left: auto; margin-right: auto; padding: 10px 25px 5px;}
