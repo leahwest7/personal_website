@@ -25,9 +25,9 @@ h2{text-align:center;color:black}
 
 ul{list-style-type: none;}
 li{display: inline;}
-li a {color: #800040; text-decoration: none; text-align: center; font-size: 1.3em;border-radius:7px;border-style:solid;}
+li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3em;border-radius:7px;border-style:solid;}
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
-.my-nav{display:flex;justify-content:space-around;padding:25px}
+.my-nav{display:flex;justify-content:space-around;padding:25px; color: black;}
 #f-img {display: block;
   margin-left: auto;
   margin-right: auto;
