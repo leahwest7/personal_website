@@ -1,6 +1,6 @@
 /*TODO: Add a background color or image to your website*/
 body {
- background-image: linear-gradient(to bottom right, #F0F8FF, #000000);
+ background-image: linear-gradient(to bottom right, #ADD8E6, #d9b3ff);
 }
 .container {line-height: 1.5; padding: 10px 10px;}
 .pro-1 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px; }
@@ -15,18 +15,6 @@ body {
 .go-back {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px;}
 .the-year-after {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
 .container-2 {display:flex; justify-content: space-around; align-items: row; flex-wrap: wrap}
-/*     position: absolute;
-    bottom: 22%;
-    right: 8%;
-    width: 400px;
-    height: 80px;
-    z-index: 8;
-    transform: rotate(-57deg); 
-    -ms-transform: rotate(-57deg); 
-    -webkit-transform: rotate(-57deg); 
-    -moz-transform: rotate(-57deg); */
-
- 
 .bass {line-height: 1.5; padding: 10px 25px 10px}
 .lovelace {line-height: 1.5; padding: 10px 25px 10px}
 p {color: black; text-indent:50px; padding: 10px 10px; font-family: 'Raleway', sans-serif; line-height= 1.5;font-size: 20px}
@@ -44,30 +32,20 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
 #f-img {display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;border-radius: 70%;max-width: 100%; height:auto}
+   width: 25%;border-radius: 70%;max-width: 100%; height:auto}
 #c-img {display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;border-radius: 50%;max-width: 100%; height:auto}
+   width: 25%;border-radius: 50%;max-width: 100%; height:auto}
 #a-img {display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;border-radius: 50%;max-width: 100%; height:auto}
-#l-beach {align-self: flex-start; max-width:100%; height:auto;}
-/*           max-width: 15%;  */
-/*   height: 15%;}
- 
-/*   width:10px;
-  height:auto; */
-/*     max-width: 100%; 
-    height: auto; 
- width: auto\9; */
-/* {align-self: flex-start; } */
-/*           max-width: 15%;  */
-/*   height: 15%;} */
+   width: 25%;border-radius: 50%;max-width: 100%; height:auto}
+#l-beach {align-self: flex-start; max-width: 25%; 
+  height: auto;}
 #l-backyard {align-self: center; max-width: 31%;
   height: auto;}
-#l-euro {align-self: flex-end; max-width: 24%;
+#l-euro { align-self: flex-end; max-width: 24%;
   height: auto;}
 
 #gif {display: block; margin-left: auto; margin-right: auto; padding: 10px 25px 5px;}
@@ -85,8 +63,11 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
 /*TODO: Add styling rules for the text and images on your website.*/
 
 
+
+
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 
 
-/* /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
- */
+
+
+/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
