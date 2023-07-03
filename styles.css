@@ -66,7 +66,7 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
 /* {align-self: flex-start; } */
 /*           max-width: 15%;  */
 /*   height: 15%;} */
-#l-backyard {align-self: center; max-width: 31%;
+#l-backyard {align-self: center; max-width: 10%;
   height: auto;}
 #l-euro { align-self: flex-end; max-width: 24%;
   height: auto;}
