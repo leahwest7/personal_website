@@ -14,8 +14,9 @@ body {
 .p-intro {text-align:center}
 .go-back {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px;}
 .the-year-after {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
-.container-2 {display:flex; justify-content: space-around; align-items: row; flex-wrap: wrap}
-/*     position: absolute;
+.container-2 {
+/*  display:flex; justify-content: space-around; align-items: row; flex-wrap: wrap} */
+    position: absolute;
  
     bottom: 22%;
     right: 8%;
@@ -26,7 +27,7 @@ body {
     -ms-transform: rotate(-57deg); 
     -webkit-transform: rotate(-57deg); 
     -moz-transform: rotate(-57deg);
- */
+}
 .bass {line-height: 1.5; padding: 10px 25px 10px}
 .lovelace {line-height: 1.5; padding: 10px 25px 10px}
 p {color: black; text-indent:50px; padding: 10px 10px; font-family: 'Raleway', sans-serif; line-height= 1.5;font-size: 20px}
