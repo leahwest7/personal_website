@@ -17,7 +17,6 @@ body {
 .container-2 {
 /*  display:flex; justify-content: space-around; align-items: row; flex-wrap: wrap} */
     position: absolute;
- 
     bottom: 22%;
     right: 8%;
     width: 400px;
@@ -54,11 +53,11 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
   margin-left: auto;
   margin-right: auto;
    width: 25%;border-radius: 50%;max-width: 100%; height:auto}
-/* #l-beach {
+#l-beach {
  display: block;
   margin-left: auto;
   margin-right: auto;
-   width: 25%;border-radius: 50%;max-width: 100%; height:auto} */
+  width: 25%;border-radius: 50%;max-width: 100%; height:auto}
  
 /*  align-self: flex-start; max-width:30%; height:auto;} */
 /*           max-width: 15%;  */
