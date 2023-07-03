@@ -44,15 +44,15 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
 #f-img {display: block;
   margin-left: auto;
   margin-right: auto;
-   width: 25%;border-radius: 70%;max-width: 100%; height:auto}
+  width: 25%;border-radius: 70%;max-width: 100%; height:auto}
 #c-img {display: block;
   margin-left: auto;
   margin-right: auto;
-   width: 25%;border-radius: 50%;max-width: 100%; height:auto}
+  width: 25%;border-radius: 50%;max-width: 100%; height:auto}
 #a-img {display: block;
   margin-left: auto;
   margin-right: auto;
-   width: 25%;border-radius: 50%;max-width: 100%; height:auto}
+  width: 25%;border-radius: 50%;max-width: 100%; height:auto}
 #l-beach {align-self: flex-start; max-width:100%; height:auto;}
 /*           max-width: 15%;  */
 /*   height: 15%;}
@@ -67,7 +67,7 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
 /*   height: 15%;} */
 #l-backyard {align-self: center; max-width: 31%;
   height: auto;}
-#l-euro { align-self: flex-end; max-width: 24%;
+#l-euro {align-self: flex-end; max-width: 24%;
   height: auto;}
 
 #gif {display: block; margin-left: auto; margin-right: auto; padding: 10px 25px 5px;}
@@ -88,4 +88,5 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 
 
-/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
+/* /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
+ */
