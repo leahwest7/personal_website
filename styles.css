@@ -42,7 +42,7 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
   margin-right: auto;
    width: 25%;border-radius: 50%;max-width: 100%; height:auto}
 #l-beach {align-self: flex-start; max-width: 15%; 
-  height: auto;}
+  height: 15%;}
 #l-backyard {align-self: center; max-width: 31%;
   height: auto;}
 #l-euro { align-self: flex-end; max-width: 24%;
