@@ -1,20 +1,20 @@
 /*TODO: Add a background color or image to your website*/
 body {
- background-image: linear-gradient(to bottom right, #D3D3D3, #FFFAF0);
+ background-image: linear-gradient(to bottom right, #D3D3D3, rgb(34, 175, 222));
 }
 .container {line-height: 1.5; padding: 10px 10px;}
-.pro-1 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px; }
+.pro-1 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:rgb(34, 175, 222); border-radius: 30px; margin:20px; }
 .pro-2 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:white; border-radius: 30px; margin:20px}
-.pro-3 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
-.pro-4 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
-.pro-5 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
-.pro-6 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
+.pro-3 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:rgb(34, 175, 222); border-radius: 30px; margin:20px}
+.pro-4 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:rgb(34, 175, 222); border-radius: 30px; margin:20px}
+.pro-5 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:rgb(34, 175, 222); border-radius: 30px; margin:20px}
+.pro-6 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:rgb(34, 175, 222); border-radius: 30px; margin:20px}
 .women-intro {line-height: 1.5;}
 .franklin {line-height: 1.5; padding: 10px 25px 10px;}
 .p-intro {text-align:center}
 .go-back {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px;}
 .the-year-after {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
-.container-2 {display:flex; justify-content: space-around; align-items: row; flex-wrap: wrap}
+.container-2 {display:flex; justify-content: space-around; align-items: row; flex-wrap: wrap; background: linear-gradient(to bottom left, #D3D3D3 50%, rgb(23, 22, 28) 50%);}
 .bass {line-height: 1.5; padding: 10px 25px 10px}
 .lovelace {line-height: 1.5; padding: 10px 25px 10px}
 p {color: black; text-indent:50px; padding: 10px 10px; font-family: 'Raleway', sans-serif; line-height: 1.5;font-size: 20px}
@@ -23,12 +23,27 @@ h1 {
   color: black;text-align:center;font-family: 'Pacifico', cursive; 
 }
 h2{text-align:center;color:black}
+h3{
+  text-align: right; color:black; font-size: x-large; padding: 20px;
+}
 
 ul{list-style-type: none;}
 li{display: inline;}
-li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3em;border-radius:7px;border-style:solid;}
+li a {
+  color: #000000; 
+  text-decoration: none; 
+  text-align: center; 
+  font-size: 1.3em;
+  border-radius:7px;
+  margin-right: 30px;
+}
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
-.my-nav{display:flex;justify-content:space-around;padding:25px; color: black;}
+.my-nav{
+  display:flex;
+  justify-content:space-around;
+  padding:25px; 
+  /* color: black; */
+}
 #f-img {display: block;
   margin-left: auto;
   margin-right: auto;
@@ -41,12 +56,16 @@ li a {color: #4747d1; text-decoration: none; text-align: center; font-size: 1.3e
   margin-left: auto;
   margin-right: auto;
    width: 25%;border-radius: 50%;max-width: 100%; height:auto}
-#l-beach {align-self: flex-start; max-width: 25%; 
+/* #photography {
+  align-self: flex-start; max-width:30%; height: auto;
+} */
+/* #l-beach {width: 10px; height: auto;} */
+/* {align-self: flex-start; max-width: 15%;  */
+  /* height: auto;} */
+#l-backyard {margin-right: auto; max-width: 30%;
   height: auto;}
-#l-backyard {align-self: center; max-width: 31%;
-  height: auto;}
-#l-euro { align-self: flex-end; max-width: 24%;
-  height: auto;}
+/* #l-euro { align-self: flex-end; max-width: 30%;
+  height: auto;} */
 
 #gif {display: block; margin-left: auto; margin-right: auto; padding: 10px 25px 5px;}
 
