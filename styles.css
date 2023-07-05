@@ -14,7 +14,12 @@ body {
 .p-intro {text-align:center}
 .go-back {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px;}
 .the-year-after {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:purple; border-radius: 30px; margin:20px}
-.container-2 {display:flex; justify-content: space-around; align-items: row; flex-wrap: wrap; background: linear-gradient(to bottom left, #D3D3D3 50%, rgb(23, 22, 28) 50%);}
+.container-2 {
+  display:flex; 
+  justify-content: space-around; 
+  /* align-items: row;  */
+  /* flex-wrap: wrap;  */
+  background: linear-gradient(to bottom left, #D3D3D3 50%, rgb(112, 121, 125) 50%);}
 .bass {line-height: 1.5; padding: 10px 25px 10px}
 .lovelace {line-height: 1.5; padding: 10px 25px 10px}
 p {color: black; text-indent:50px; padding: 10px 10px; font-family: 'Raleway', sans-serif; line-height: 1.5;font-size: 20px}
