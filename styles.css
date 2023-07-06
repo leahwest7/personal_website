@@ -73,7 +73,7 @@ li a {
 /* {align-self: flex-start; max-width: 15%;  */
   /* height: auto;} */
 #l-backyard {margin-right: auto; max-width: 30%;
-  height: auto;}
+  height: auto;object-fit: contain;}
 /* #l-euro { align-self: flex-end; max-width: 30%;
   height: auto;} */
 
