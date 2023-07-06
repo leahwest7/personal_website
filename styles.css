@@ -124,11 +124,19 @@ li a {
 @media screen and (max-width: 600px) {
   .resume-container {
      width: 100%;
+  }
+}
+
 
 #spam {
   height: 100%; 
-  width: 100%; 
-  border: 0
+  width: 50%; 
+  border: 0;
+  /* margin-left: auto;
+  margin-right: auto; */
+  justify-content: center;
+  object-fit: contain;
+  align-items: center;
   
 
 }
