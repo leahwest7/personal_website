@@ -9,7 +9,8 @@ body {
 .pro-4 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:#D3D3D3 ; border-radius: 30px; margin:20px}
 .pro-5 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:#D3D3D3; border-radius: 30px; margin:20px}
 .pro-6 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:#D3D3D3; border-radius: 30px; margin:20px}
-.pro-7 {line-height: 1.5; padding: 10px 25px 10px;border-style:ridge; border-color:#D3D3D3; border-radius: 30px; margin:20px}
+.pro-7 {line-height: 1.5; ;border-style:ridge; border-color:#D3D3D3; border-radius: 30px; margin:20px;
+justify-content: center; line-height: 1.5; padding: 10px 25px 10px;}
 .women-intro {line-height: 1.5;}
 .franklin {line-height: 1.5; padding: 10px 25px 10px;}
 .p-intro {text-align:center}
@@ -138,16 +139,10 @@ li a {
 }
 
 #hammer {
-  max-width: 50%;
-  height: 100%; 
-  width: 100%; 
-  /* border: 0; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  justify-content: center;
-  object-fit: contain;
-  align-items: center;
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;border-radius: 5%;max-width: 100%; height:auto
 }
 
 hr.solid {
