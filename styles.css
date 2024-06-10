@@ -99,8 +99,8 @@ li a {
 }
 #resume {
   display: flex;
-  width: 650px;
-  height:750px;
+  width: 550px;
+  height:650px;
   margin-left: auto;
   align-self: center;
 }
