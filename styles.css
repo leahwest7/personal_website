@@ -99,8 +99,8 @@ li a {
 }
 #resume {
   display: flex;
-  width: 950px;
-  height:1050px;
+  width: 650px;
+  height:750px;
   margin-left: auto;
   align-self: center;
 }
@@ -114,12 +114,12 @@ li a {
   align-self: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .resume-container {
-     width: 60%;
+     width: 50%;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .resume-container {
      width: 100%;
   }
