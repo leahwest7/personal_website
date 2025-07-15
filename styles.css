@@ -155,11 +155,26 @@ li a {
   padding: 20px;
 
 }
-#ripe_reaction{
-  display: block;
-  margin-left: auto;
+#ripe_reaction_video{
+  max-width: 40%;
+  /* display: block; */
   margin-right: auto;
-  width: 38%;border-radius: 5%;max-width: 100%; height:auto
+  border-radius:10%; 
+  object-fit: contain;
+  /* display:flex;
+  float:right; */
+
+}
+#hardware{
+  /* display: block; */
+  margin-left: auto;
+  width: 44%;
+  border-radius: 10%;
+  height:auto;
+  object-fit:contain;
+  /* display:flex;
+  float:left; */
+  padding: 20px
 }
 #circuits {
   /* display: block; */
@@ -171,23 +186,14 @@ li a {
   /* display:flex;
   float:left; */
   padding: 20px
-  
 }
 .robot {
-  padding: 10px 
- 
-
+  padding: 10px;
 }
-
-/* .robot{
-  display:flex;
-  float:right;
+.ripe_reaction {
+  /* padding: 10px; */
+  display: flex;
 }
-.circuits{
-  display:flex;
-  float:left;
-} */
-
 
 hr.solid {
   border-top: 3px solid rgb(244, 248, 250);
