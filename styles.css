@@ -155,6 +155,12 @@ li a {
   padding: 20px;
 
 }
+#ripe_reaction{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 38%;border-radius: 5%;max-width: 100%; height:auto
+}
 #circuits {
   /* display: block; */
   margin-left: auto;
