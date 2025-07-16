@@ -1,5 +1,5 @@
 /*TODO: Add a background color or image to your website*/
-body {
+html, body {
  background-image: linear-gradient(to bottom right, #D3D3D3 25%, rgb(34, 175, 222));
 }
 .container {line-height: 1.5; padding: 10px 10px;}
@@ -53,7 +53,6 @@ li a {
   display:flex;
   justify-content:space-around;
   padding:30px; 
-  /* background-color: rgba(245, 248, 247, 0.846); */
   color: black;
 }
 #f-img {display: block;
@@ -88,42 +87,6 @@ li a {
 #the-year-after {display:block; margin-left:auto; margin-right:auto; padding: 10px 25px 10px; display: flex;
 }
 #guitar-img {display:flex; justify-content: center; align-items: center; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; border-radius: 20%;}
-
-
-/* Resume page */
-.resume-container {
-  display:flex; 
-  /* justify-content: space-around;  */
-  float: right;
-  
-}
-#resume {
-  display: flex;
-  width: 550px;
-  height:650px;
-  margin-left: auto;
-  align-self: center;
-}
-.resume-explained {
-  /* display:flex; */
-  float: left;
-}
-#languages {
-  display:flex;
-  line-height: 1.5; padding: 10px 10px;
-  align-self: auto;
-}
-
-@media screen and (max-width: 900px) {
-  .resume-container {
-     width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .resume-container {
-     width: 100%;
-  }
-}
 
 
 #spam {
